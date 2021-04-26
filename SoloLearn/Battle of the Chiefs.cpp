@@ -12,15 +12,12 @@ int recSum(int n)
 	{
 		return n + recSum(n - 1);
 	}
-
-
-	//return *pn;
 }
+
 
 int main()
 {
 	setlocale(LC_ALL, "RU");
-
 
 	int n;
 	cout << "Введите количество приготовленных тортов: ";
