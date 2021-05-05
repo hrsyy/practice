@@ -2,6 +2,7 @@
 #include <cmath>
 using namespace std;
 
+
 class Number
 {
 public:
@@ -20,6 +21,8 @@ int Number::square() const
 {
     return pow(num, 2);
 }
+
+
 int main()
 {
     int x;
