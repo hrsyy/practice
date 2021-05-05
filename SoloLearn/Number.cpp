@@ -18,7 +18,7 @@ private:
 
 int Number::square() const
 {
-    cout << "sqare " << pow(num, 2) << endl;
+    return pow(num, 2);
 }
 int main()
 {
