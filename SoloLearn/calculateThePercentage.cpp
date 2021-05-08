@@ -18,11 +18,10 @@ public:
 
     Account operator+(Account &other)
     {
-        Account res;
-
-        res = this->getTotal() + other.getTotal();
-
-        return res;
+        balance = this->balance + other.balance;
+        interest = this->interest + other.interest;
+        
+        return balance;
     }
 
 private:
